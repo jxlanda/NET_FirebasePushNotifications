@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseCloudMessaging", "FirebaseCloudMessaging\FirebaseCloudMessaging.csproj", "{47B78AC5-A4D5-4E1C-9956-92F4B097F7D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47B78AC5-A4D5-4E1C-9956-92F4B097F7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B78AC5-A4D5-4E1C-9956-92F4B097F7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B78AC5-A4D5-4E1C-9956-92F4B097F7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B78AC5-A4D5-4E1C-9956-92F4B097F7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D01F759C-872C-44DB-8A4C-07313331960C}
+	EndGlobalSection
+EndGlobal
