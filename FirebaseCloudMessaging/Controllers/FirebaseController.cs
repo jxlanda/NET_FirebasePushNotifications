@@ -9,12 +9,10 @@ namespace FirebaseCloudMessaging.Controllers
     [ApiController]
     public class FirebaseController : ControllerBase
     {
-        private IConfiguration _config;
         private FirebaseMessagingService _messagingService;
 
-        public FirebaseController(IConfiguration config, FirebaseMessagingService messagingService)
+        public FirebaseController(FirebaseMessagingService messagingService)
         {
-            _config = config;
             _messagingService = messagingService;
         }
 

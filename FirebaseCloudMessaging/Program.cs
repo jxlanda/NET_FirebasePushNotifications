@@ -13,8 +13,8 @@ builder.Services.AddSwaggerGen();
 // Firebase Cloud Messaging
 FirebaseApp.Create(new AppOptions()
 {
-    Credential = GoogleCredential.GetApplicationDefault()
-    //  Credential = GoogleCredential.FromFile("firebase.json")
+    //Credential = GoogleCredential.GetApplicationDefault()
+    Credential = GoogleCredential.FromFile("firebase.json")
 });
 
 var app = builder.Build();
